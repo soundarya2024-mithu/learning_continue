@@ -18,7 +18,7 @@ public class AppTest {
 		driver.get("https://practicetestautomation.com/practice-test-login/");
 		driver.manage().window().maximize();
 		driver.findElement(By.id("username")).sendKeys("student");
-		driver.findElement(By.id("password")).sendKeys("Password123");
+		driver.findElement(By.id("paword")).sendKeys("Password123");
 		WebElement submit=driver.findElement(By.id("submit"));
 		
 		JavascriptExecutor js=(JavascriptExecutor) driver;
